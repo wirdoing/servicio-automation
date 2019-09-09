@@ -1,0 +1,4 @@
+instalar pip : sudo apt-get install python3-pip
+instalar selenium: sudo pip3 install selenium
+instalar pynput: pip3 install pynput
+hacer que geckodriver este en el path permanentemente: 
