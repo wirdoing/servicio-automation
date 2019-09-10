@@ -14,87 +14,89 @@ def abrirNuevaPestanaTerminal():
     keyboard.release('t')
 def transformarCarrera(carrera):
     if  carrera == 'LIC. EN CONTADURIA PUBLICA':
-        carrera=1
+        return 1
     elif carrera == 'LIC. EN ECONOMIA':
-        carrera=2
+        return 2
     elif carrera == 'LIC. EN GESTION Y ECONOMIA AMBIENTAL':
-        carrera=3
+        return 3
     elif carrera == 'LIC. EN MERCADOTECNIA':
-        carrera=4
+        return 4
     elif carrera == 'LIC. EN NEGOCIOS INTERNACIONALES':
-        carrera=5
+        return 5
     elif carrera == 'LIC. EN RECURSOS HUMANOS':
-        carrera=6
+        return 6
     elif carrera == 'LIC. EN TECNOLOGIAS DE INFORMACION':
-        carrera=7
+        return 7
     elif carrera =='TURI':
-        carrera=8
+        return 8
     elif carrera == ' LIC. EN TURISMO':
-        carrera=8
+        return 8
     elif carrera == 'LIC. EN ADMINISTRACION':
-        carrera=9
+        return 9
     elif carrera == 'LIC. EN GESTION DE NEGOCIOS GASTRONOMICOS':
-        carrera=10
+        return 10
     elif carrera == 'LIC. EN RELACIONES PUBLICAS Y COMUNICACION':
-        carrera=11
+        return 11
     elif carrera =='LIC. EN ADMINISTRACION FINANCIERA Y SISTEMAS':
-        carrera=12
+        return 12
     elif carrera =='LAGP':
-        carrera=13
+        return 13
     elif carrera ==' LIC. EN ADMINISTRACION GUBERNAMENTAL Y POLITICAS PUBLICAS':
-        carrera=13
+        return 13
     elif carrera =='ING. EN NEGOCIOS':
-        carrera=14
+        return 14
     elif carrera =='INTERCAMBIO':
-        carrera=15
+        return 15
     elif carrera =='MAESTRIA EN ADMINISTRACION DE NEGOCIOS':
-        carrera=16
+        return 16
     elif carrera =='MAESTRIA EN ECONOMIA':
-        carrera=17
+        return 17
     elif carrera =='MAESTRIA EN FINANZAS EMPRESARIALES':
-        carrera=18 
+        return 18 
     elif carrera =='MAESTRIA EN NEGOCIOS INTERNACIONALES':
-        carrera=19
+        return 19
     elif carrera =='MAESTRIA EN RELACIONES ECONOMICAS INTERNACIONALES Y COOPERACION CON ENFASIS EN AL-UE':
-        carrera=20
+        return 20
     elif carrera =='MAESTRIA EN ANALISIS TRIBUTARIO':
-        carrera=21
+        return 21
     elif carrera =='MAESTRIA EN EDUCACION SUPERIOR INTERNACIONAL':
-        carrera=22
+        return 22
     elif carrera =='MAESTRIA EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO':
-        carrera=23
+        return 23
     elif carrera =='MAESTRIA EN POLITICAS PUBLICAS':
-        carrera=24
+        return 24
     elif carrera == 'MAESTRIA EN TECNOLOGIAS DE LA INFORMACION':
-        carrera=25
+        return 25
     elif carrera == 'MAESTRIA EN DIRECCION DE MERCADOTECNIA':
-        carrera=26
+        return 26
     elif carrera =='MAESTRIA EN ESTUDIOS DEL TURISMO':
-        carrera=27
-    elif carrera=='MAESTRIA EN GESTION Y POLITICAS DE LA EDUCACION SUPERIOR':
-        carrera=28
+        return 27
+    elif carrera =='MAESTRIA EN GESTION Y POLITICAS DE LA EDUCACION SUPERIOR':
+        return 28
     elif carrera =='MAESTRIA EN NEGOCIOS Y ESTUDIOS ECONOMICOS':
-        carrera=29
+        return 29
     elif carrera =='MAESTRIA EN TECNOLOGIAS PARA EL APRENDIZAJE':
-        carrera=30
-    elif carrera=='DOCTORADO EN CIENCIAS DE LA ADMINISTRACION':
-        carrera=31
-    elif carrera=='MAESTRÍA EN INNOVACIÓN SOCIAL Y GESTIÓN DEL BIENESTAR':#ojo esta no esta en el script
-        carrera=38
-    elif carrera=='DOCTORADO EN GESTION DE LA EDUCACION SUPERIOR':
-        carrera=32
+        return 30
+    elif carrera =='DOCTORADO EN CIENCIAS DE LA ADMINISTRACION':
+        return 31
+    elif carrera =='MAESTRÍA EN INNOVACIÓN SOCIAL Y GESTIÓN DEL BIENESTAR':#ojo esta no esta en el script
+        return 38
+    elif carrera =='DOCTORADO EN GESTION DE LA EDUCACION SUPERIOR':
+        return 32
     elif carrera =='DOCTORADO EN ESTUDIOS ECONOMICOS':
-        carrera=33
+        return 33
     elif carrera =='DOCTORADO EN POLITICAS PUBLICAS Y DESARROLLO':
-        carrera=34
+        return 34
     elif carrera =='DOCTORADO EN ESTUDIOS FISCALES':
-        carrera=35
+        return 35
     elif carrera =='DOCTORADO EN TECNOLOGIAS DE INFORMACION':
-        carrera=36
+        return 36
     elif carrera == 'MAESTRIA EN RESOLUCIÓN DE CONFLICTOS':
-        carrera=37
+        return 37
     elif carrera =='OTRO CENTRO DE UDG':
-        carrera=38
+        return 38
+    else:
+        print("algo fallo")
 
 
 def nuevaCuenta(login,nombre,apellido,carrera,ciclo,correo,curp,codigo):
@@ -117,7 +119,7 @@ def nuevaCuenta(login,nombre,apellido,carrera,ciclo,correo,curp,codigo):
     presionarEnter()
     keyboard.type(apellido)
     presionarEnter()
-    keyboard.type(carrera)
+    keyboard.type(transformarCarrera)
     presionarEnter()
     keyboard.type(ciclo)
     presionarEnter()
