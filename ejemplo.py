@@ -6,6 +6,52 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 import unittest,re,os
 import scriptKeyboard
+def transformarCarrera(carrera):
+    diccionario = {
+        'LIC. EN CONTADURIA PUBLICA':'1',    
+        'LIC. EN ECONOMIA':'2',
+        'LIC. EN GESTION Y ECONOMIA AMBIENTAL':'3',
+        'LIC. EN MERCADOTECNIA':'4',
+        'LIC. EN NEGOCIOS INTERNACIONALES':'5',
+        'LIC. EN RECURSOS HUMANOS':'6',
+        'LIC. EN TECNOLOGIAS DE INFORMACION':'7',
+        'TURI':'8',
+        ' LIC. EN TURISMO':'8',
+        'LIC. EN ADMINISTRACION':'9',
+        'LIC. EN GESTION DE NEGOCIOS GASTRONOMICOS':'10',
+        'LIC. EN RELACIONES PUBLICAS Y COMUNICACION':'11',
+        'LIC. EN ADMINISTRACION FINANCIERA Y SISTEMAS':'12',
+        'LAGP':'13',
+        ' LIC. EN ADMINISTRACION GUBERNAMENTAL Y POLITICAS PUBLICAS':'13',
+        'ING. EN NEGOCIOS':'14',
+        'INTERCAMBIO':'15',
+        'MAESTRIA EN ADMINISTRACION DE NEGOCIOS':'16',
+        'MAESTRIA EN ECONOMIA':'17',
+        'MAESTRIA EN FINANZAS EMPRESARIALES':'18 ',
+        'MAESTRIA EN NEGOCIOS INTERNACIONALES':'19',
+        'MAESTRIA EN RELACIONES ECONOMICAS INTERNACIONALES Y COOPERACION CON ENFASIS EN AL-UE':'20',
+        'MAESTRIA EN ANALISIS TRIBUTARIO':'21',
+        'MAESTRIA EN EDUCACION SUPERIOR INTERNACIONAL':'22',
+        'MAESTRIA EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO':'23',
+        'MAESTRIA EN POLITICAS PUBLICAS':'24',
+        'MAESTRIA EN TECNOLOGIAS DE LA INFORMACION':'25',
+        'MAESTRIA EN DIRECCION DE MERCADOTECNIA':'26',
+        'MAESTRIA EN ESTUDIOS DEL TURISMO':'27',
+        'MAESTRIA EN GESTION Y POLITICAS DE LA EDUCACION SUPERIOR':'28',
+        'MAESTRIA EN NEGOCIOS Y ESTUDIOS ECONOMICOS':'29',
+        'MAESTRIA EN TECNOLOGIAS PARA EL APRENDIZAJE':'30',
+        'DOCTORADO EN CIENCIAS DE LA ADMINISTRACION':'31',
+        'MAESTRÍA EN INNOVACIÓN SOCIAL Y GESTIÓN DEL BIENESTAR':'38',#ojo esta no esta en el script
+        'DOCTORADO EN GESTION DE LA EDUCACION SUPERIOR':'32',
+        'DOCTORADO EN ESTUDIOS ECONOMICOS':'33',
+        'DOCTORADO EN POLITICAS PUBLICAS Y DESARROLLO':'34',
+        'DOCTORADO EN ESTUDIOS FISCALES':'35',
+        'DOCTORADO EN TECNOLOGIAS DE INFORMACION':'36',
+        'MAESTRIA EN RESOLUCIÓN DE CONFLICTOS':'37',
+        'OTRO CENTRO DE UDG':'38'
+    }
+    carreraTransformada=diccionario[carrera]
+    return carreraTransformada
 class AppDynamicsJob(unittest.TestCase):
     def setUp(self):
         options = Options()
@@ -35,7 +81,7 @@ class AppDynamicsJob(unittest.TestCase):
                 print(var)
                 datos=var.split('\n')
                 print(datos)
-                login = datos[17]
+                login = datos[19]
                 nombre = datos[1]
                 apellido = datos[3]
                 carrera = datos[17]
@@ -43,8 +89,8 @@ class AppDynamicsJob(unittest.TestCase):
                 correo = datos[11]
                 curp = datos[15]
                 codigo = datos[9]
-                scriptKeyboard.nuevaCuenta(login,nombre,apellido,carrera,ciclo,correo,curp,codigo)                    
-
+                carreraTransformada=transformarCarrera(carrera)
+                scriptKeyboard.nuevaCuenta(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
     def tearDown(self):
         self.assertEqual([], self.verificationErrors)
         driver = self.driver
