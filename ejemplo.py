@@ -57,6 +57,7 @@ class AppDynamicsJob(unittest.TestCase):
         options = Options()
         options.headless = True
         self.driver = webdriver.Firefox(options=options)
+        #self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.verificationErrors = []
         self.accept_next_alert = True
