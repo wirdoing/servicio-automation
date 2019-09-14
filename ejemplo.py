@@ -6,6 +6,15 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 import unittest,re,os
 import scriptKeyboard
+def identificarTipodeCuenta(tipo_de_cuenta):
+    diccionario = {
+        'Alumno' : '2',
+        'Profesor' : '1',
+        'Personal Administrativo' : '1',
+        'Personal Académico' : '1'
+    }
+    cuentaIdentificada = diccionario[tipo_de_cuenta]
+    return cuentaIdentificada
 def transformarCarrera(carrera):
     diccionario = {
         'LIC. EN CONTADURIA PUBLICA':'1',    
@@ -90,8 +99,14 @@ class AppDynamicsJob(unittest.TestCase):
                 correo = datos[11]
                 curp = datos[15]
                 codigo = datos[9]
-                carreraTransformada=transformarCarrera(carrera)
-                scriptKeyboard.nuevaCuenta(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
+                tipo_de_cuenta = datos[13]
+                departamento = datos[6]
+                if tipo_de_cuenta == 'Alumno' : 
+                    carreraTransformada=transformarCarrera(carrera)
+                    scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
+                elif tipo_de_cuenta == 'Profesor' or tipo_de_cuenta == 'Personal Administrativo' or tipo_de_cuenta == 'Personal Académico':
+                    scriptKeyboard.nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo)
+                
     def tearDown(self):
         self.assertEqual([], self.verificationErrors)
         driver = self.driver

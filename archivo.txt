@@ -1,0 +1,28 @@
+[servidores@210-67 servicio-automation]$ ssh prestador@zimbra
+Last login: Fri Sep 13 17:45:51 2019 from 148.202.67.210
+
+Selecciona el dominio en cual trabajar
+1) Cucea
+2) Alumnos
+3) Salir
+#1
+CUCEA
+1) Busquedas	   3) Modificaciones  5) Salir
+2) Altas	   4) Bajas
+#2
+Datos para el nuevo usuario
+login
+null
+Nombre
+Prueba 1
+Apellidos
+Prueba
+Departamento o Area
+Departamento:
+codigo
+212502825
+Correo Alternativo
+prueba1.@hotmail.com
+9a4dc3f9-0a88-45a4-a759-6821236e1dce
+Se creo el usuario null con el password qq9zgbKO 
+#    

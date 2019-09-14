@@ -13,7 +13,35 @@ def abrirNuevaPestanaTerminal():
     keyboard.release(Key.ctrl)
     keyboard.release('t')
 
-def nuevaCuenta(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo):
+def nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo):
+    abrirNuevaPestanaTerminal()
+    time.sleep(3)
+    keyboard.type('ssh prestador@zimbra')
+    presionarEnter()
+    time.sleep(5)
+    #keyboard.type('Team_Equipo_CUC34')
+    #presionarEnter()
+    #quitar comentarios a las 2 lineas pasadas si se elimina la contraseña en el ssh
+    keyboard.type('1')
+    presionarEnter()
+    keyboard.type('2')
+    presionarEnter()
+    keyboard.type(login)
+    presionarEnter()
+    keyboard.type(nombre)
+    presionarEnter()
+    keyboard.type(apellido)
+    presionarEnter()
+    keyboard.type(departamento)
+    presionarEnter()
+    keyboard.type(codigo)
+    presionarEnter()
+    keyboard.type(correo)
+    presionarEnter()
+    time.sleep(40)
+    keyboard.type('hola')
+
+def nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo):
     #transformarCarrera(carrera)
     abrirNuevaPestanaTerminal()
     time.sleep(3)
