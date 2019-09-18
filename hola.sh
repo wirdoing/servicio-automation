@@ -1,2 +1,0 @@
-ssh prestador@zimbra
-cucea

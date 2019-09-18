@@ -1,0 +1,2 @@
+-hacer un log con la hora y el dia especificando que operacion se hizo y si fue correcta
+-Verificar que la cuenta no esta repetida
