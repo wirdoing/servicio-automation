@@ -1,2 +1,10 @@
 -hacer un log con la hora y el dia especificando que operacion se hizo y si fue correcta
 -Verificar que la cuenta no esta repetida
+-automatizar el envio de correos
+
+
+
+Especificacion de que se necesita:
+En creacion de cuientas diferentes a alumnos es necesario especificar el login
+En recuperacion de contraseña se necesita especificar el login y si es cuenta de alumno o diferente 
+hacer que ciclo y login sean mandatorios, si es posible que tenga trim para evitar que sea un espacio

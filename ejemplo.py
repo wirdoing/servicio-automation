@@ -4,8 +4,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
-import unittest,re,os
+from datetime import datetime
+import unittest,re,os,time
 import scriptKeyboard
+import tkinter as tk
+def escribirAuxiliar(c):
+    escribir=open("auxiliar.txt","w")
+    escribir.write(c)
+    escribir.close
 def identificarTipodeCuenta(tipo_de_cuenta):
     diccionario = {
         'Alumno' : '2',
@@ -65,13 +71,15 @@ class AppDynamicsJob(unittest.TestCase):
     def setUp(self):
         options = Options()
         options.headless = True
-        self.driver = webdriver.Firefox(options=options)
-        #self.driver = webdriver.Firefox()
+        #self.driver = webdriver.Firefox(options=options)
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.verificationErrors = []
         self.accept_next_alert = True
-    
+
     def test_app_dynamics_job(self):
+        root = tk.Tk()
+        root.withdraw()
         driver = self.driver
         driver.maximize_window()
         driver.get("https://ayuda.cucea.udg.mx/")
@@ -81,6 +89,7 @@ class AppDynamicsJob(unittest.TestCase):
         driver.find_element_by_id(u"contraseña").clear()
         driver.find_element_by_id(u"contraseña").send_keys("Melivonne7430")
         driver.find_element_by_id("ingresar").click()
+        botones = driver.find_elements_by_xpath("//td[text()='Cuenta de Correo Institucional']/following-sibling::td[text()='En espera']/following-sibling::td[7]/button[1]")
         lista = driver.find_elements_by_xpath("//td[text()='Cuenta de Correo Institucional']/following-sibling::td[text()='En espera']/preceding-sibling::td[1]")
         lista_de_listas=[lista[i:i+1] for i in range (0, len(lista))]
         #for element in lista_de_listas:
@@ -91,22 +100,66 @@ class AppDynamicsJob(unittest.TestCase):
                 print(var)
                 datos=var.split('\n')
                 print(datos)
-                login = datos[19]
-                nombre = datos[1]
-                apellido = datos[3]
-                carrera = datos[17]
-                ciclo = datos[21]
-                correo = datos[11]
-                curp = datos[15]
-                codigo = datos[9]
-                tipo_de_cuenta = datos[13]
-                departamento = datos[6]
+                try:
+                    login = datos[19]
+                    nombre = datos[1]
+                    apellido = datos[3]
+                    carrera = datos[17]
+                    ciclo = datos[21]
+                    correo = datos[11]
+                    curp = datos[15]
+                    codigo = datos[9]
+                    tipo_de_cuenta = datos[13]
+                    departamento = datos[6]
+                except:
+                    print("El ticket no fue capturado correctamente revisar por favor")
+                    dateTimeObj = datetime.now()
+                    timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                    f= open("operaciones.log","a+")
+                    f.write(timestampStr+" El ticket fue capturado incorrectamente: "+login+" \n")
+                    f.close
+
                 if tipo_de_cuenta == 'Alumno' : 
                     carreraTransformada=transformarCarrera(carrera)
-                    scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
+                    #scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
+                    c = root.clipboard_get()#obtener lo copiado del clipboard
+                    escribirAuxiliar(c)
+                    count = len(open("auxiliar.txt").readlines(  ))
+                    with open("auxiliar.txt", "r") as a:
+                        lines = a.readlines()
+                        try:
+                            contra=lines[count-6]#la linea donde esta el usuario y contraseña
+                            separador=contra.split(' ')#separar la lista por espacios
+                            print (lines[count-6])#linea para verificar si esta correcta la posicion del password
+                            passoword=separador[8]
+                            print("Este es el password: "+passoword)
+                            dateTimeObj = datetime.now()
+                            timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                            f= open("operaciones.log","a+")
+                            f.write(timestampStr+" Creacion de cuenta de alumno: "+login+" \n")
+                            f.close
+                            botones[element].click()
+                        except:
+                            print("esta cuenta ya existe except")
+                            dateTimeObj = datetime.now()
+                            timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                            f= open("operaciones.log","a+")
+                            f.write(timestampStr+" Esta cuenta ya existe: "+login+" \n")
+                            f.close
+                    a.close
+                    os.remove("auxiliar.txt")
                 elif tipo_de_cuenta == 'Profesor' or tipo_de_cuenta == 'Personal Administrativo' or tipo_de_cuenta == 'Personal Académico':
-                    scriptKeyboard.nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo)
-                
+                    #todo: especificar el login de este case
+                    #scriptKeyboard.nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo)
+                    dateTimeObj = datetime.now()
+                    timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                    f= open("operaciones.log","a+")
+                    f.write(timestampStr+" Creacion de cuenta de "+tipo_de_cuenta+" y su login es: "+login+" \n")
+                    f.close
+    """ def test2(self):
+        driver = self.driver
+        driver.maximize_window()
+        driver.get("https://www.google.com.mx") """
     def tearDown(self):
         self.assertEqual([], self.verificationErrors)
         driver = self.driver

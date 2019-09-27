@@ -1,28 +1,93 @@
 [servidores@210-67 servicio-automation]$ ssh prestador@zimbra
-Last login: Fri Sep 13 17:45:51 2019 from 148.202.67.210
+Last login: Mon Sep 23 16:17:28 2019 from 148.202.67.210
 
 Selecciona el dominio en cual trabajar
 1) Cucea
 2) Alumnos
 3) Salir
-#1
-CUCEA
+#2
+Alumnos
 1) Busquedas	   3) Modificaciones  5) Salir
 2) Altas	   4) Bajas
 #2
 Datos para el nuevo usuario
 login
-null
+test1995
 Nombre
-Prueba 1
+Oscart
 Apellidos
-Prueba
-Departamento o Area
-Departamento:
-codigo
-212502825
+nose
+
+Ingresa el numero de la carrera
+1) LCOP, LIC. EN CONTADURIA PUBLICA
+2) LECO, LIC. EN ECONOMIA
+3) LIGA, LIC. EN GESTION Y ECONOMIA AMBIENTAL
+4) LIME, LIC. EN MERCADOTECNIA
+5) LINI, LIC. EN NEGOCIOS INTERNACIONALES
+6) LIRH, LIC. EN RECURSOS HUMANOS
+7) LTIN, LIC. EN TECNOLOGIAS DE INFORMACION
+8) TURI, LIC. EN TURISMO
+9) LIAD, LIC. EN ADMINISTRACION
+10) LGNG, LIC. EN GESTION DE NEGOCIOS GASTRONOMICOS
+11) LRPC, LIC. EN RELACIONES PUBLICAS Y COMUNICACION
+12) LAFI, LIC. EN ADMINISTRACION FINANCIERA Y SISTEMAS
+13) LAGP, LIC. EN ADMINISTRACION GUBERNAMENTAL Y POLITICAS PUBLICAS
+14) INEG,ING. EN NEGOCIOS
+15) INT, INTERCAMBIO
+16) MBA, MAESTRIA EN ADMINISTRACION DE NEGOCIOS
+17) ME, MAESTRIA EN ECONOMIA
+18) MFE, MAESTRIA EN FINANZAS EMPRESARIALES
+19) MNI, MAESTRIA EN NEGOCIOS INTERNACIONALES
+20) MREIC, MAESTRIA EN RELACIONES ECONOMICAS INTERNACIONALES Y COOPERACION CON ENFASIS EN AL-UE
+21) MAT, MAESTRIA EN ANALISIS TRIBUTARIO
+22) MESI, MAESTRIA EN EDUCACION SUPERIOR INTERNACIONAL
+23) MGSST, MAESTRIA EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO
+24) MPP, MAESTRIA EN POLITICAS PUBLICAS
+25) MTI, MAESTRIA EN TECNOLOGIAS DE LA INFORMACION
+26) MDM MAESTRIA EN DIRECCION DE MERCADOTECNIA
+27) MET, MAESTRIA EN ESTUDIOS DEL TURISMO
+28) MGPES, MAESTRIA EN GESTION Y POLITICAS DE LA EDUCACION SUPERIOR
+29) MNEE, MAESTRIA EN NEGOCIOS Y ESTUDIOS ECONOMICOS
+30) MTA, MAESTRIA EN TECNOLOGIAS PARA EL APRENDIZAJE
+31) DCA, DOCTORADO EN CIENCIAS DE LA ADMINISTRACION
+32) DGES, DOCTORADO EN GESTION DE LA EDUCACION SUPERIOR
+33) DEEC, DOCTORADO EN ESTUDIOS ECONOMICOS
+34) DPPD, DOCTORADO EN POLITICAS PUBLICAS Y DESARROLLO
+35) DEFIS, DOCTORADO EN ESTUDIOS FISCALES
+36) DTI, DOCTORADO EN TECNOLOGIAS DE INFORMACION
+37) MRC, MAESTRIA EN RESOLUCION DE CONFLICTOS
+38) OTRO CENTRO DE UDG
+30
+Ciclo de Adminsion
+2016
 Correo Alternativo
-prueba1.@hotmail.com
-9a4dc3f9-0a88-45a4-a759-6821236e1dce
-Se creo el usuario null con el password qq9zgbKO 
-#    
+ola@gmail.com
+CURP
+fbshfbes
+codigo
+245454
+eb573fc5-5fac-4537-a39a-9a21d3999898
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+modifying entry "uid=test1995,ou=people,dc=alumnos,dc=cucea,dc=udg,dc=mx"
+
+Se creo el usuario test1995 con el password SC1ojKc
+Selecciona el dominio en cual trabajar
+1) Cucea
+2) Alumnos
+3) Salir
+#

@@ -7,3 +7,4 @@ sudo gedit environment
 si el documento esta vacio agregar: PATH="/en/donde/se/encuentra/el/webdriver"
 si el documento ya tiene un path entonces dentro de las comillas al final poner un ":"
  y poner la ruta donde se encuentra el webdriver
+ instalar tkinter: sudo dnf install python3-tkinter

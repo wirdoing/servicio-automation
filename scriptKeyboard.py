@@ -12,6 +12,17 @@ def abrirNuevaPestanaTerminal():
     keyboard.press('t')
     keyboard.release(Key.ctrl)
     keyboard.release('t')
+def copiarTerminal():
+    keyboard.press(Key.ctrl)
+    keyboard.press('e')
+    keyboard.release('e')
+    keyboard.release(Key.ctrl)
+    keyboard.press(Key.ctrl)
+    keyboard.press(Key.shift)
+    keyboard.press('c')
+    keyboard.release('c')
+    keyboard.release(Key.shift)
+    keyboard.release(Key.ctrl)
 
 def nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo):
     abrirNuevaPestanaTerminal()
@@ -39,7 +50,7 @@ def nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo):
     keyboard.type(correo)
     presionarEnter()
     time.sleep(40)
-    keyboard.type('hola')
+    copiarTerminal()
 
 def nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo):
     #transformarCarrera(carrera)
@@ -72,3 +83,4 @@ def nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,cur
     keyboard.type(codigo)
     presionarEnter()
     time.sleep(5)
+    copiarTerminal()
