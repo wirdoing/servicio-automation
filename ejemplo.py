@@ -92,10 +92,23 @@ class AppDynamicsJob(unittest.TestCase):
         botones = driver.find_elements_by_xpath("//td[text()='Cuenta de Correo Institucional']/following-sibling::td[text()='En espera']/following-sibling::td[7]/button[1]")
         lista = driver.find_elements_by_xpath("//td[text()='Cuenta de Correo Institucional']/following-sibling::td[text()='En espera']/preceding-sibling::td[1]")
         lista_de_listas=[lista[i:i+1] for i in range (0, len(lista))]
-        #for element in lista_de_listas:
-         #   print(element.text)
+        numero_de_tickets=0
+        #meter en un if para que no lo haga si no encuentra tickets
+        driver.execute_script("window.open('https://zimbra.cucea.udg.mx');")
+        driver.switch_to.window(driver.window_handles[1])
+        driver.find_element_by_id("username").click()
+        driver.find_element_by_id("username").clear()
+        driver.find_element_by_id("username").send_keys("oscar.campos")
+        driver.find_element_by_id("password").click()
+        driver.find_element_by_id("password").clear()
+        driver.find_element_by_id("password").send_keys("Correozimbra123")
+        driver.find_element_by_xpath("//input[@class='ZLoginButton DwtButton']").click()
+        time.sleep(1)
+        driver.close()
+        driver.switch_to.window(driver.window_handles[0])
         for element in lista_de_listas:
             for element in element:
+                print(len(lista_de_listas))
                 var=element.text
                 print(var)
                 datos=var.split('\n')
@@ -110,7 +123,7 @@ class AppDynamicsJob(unittest.TestCase):
                     curp = datos[15]
                     codigo = datos[9]
                     tipo_de_cuenta = datos[13]
-                    departamento = datos[6]
+                    departamento = datos[7]
                 except:
                     print("El ticket no fue capturado correctamente revisar por favor")
                     dateTimeObj = datetime.now()
@@ -118,7 +131,6 @@ class AppDynamicsJob(unittest.TestCase):
                     f= open("operaciones.log","a+")
                     f.write(timestampStr+" El ticket fue capturado incorrectamente: "+login+" \n")
                     f.close
-
                 if tipo_de_cuenta == 'Alumno' : 
                     carreraTransformada=transformarCarrera(carrera)
                     #scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
@@ -128,17 +140,36 @@ class AppDynamicsJob(unittest.TestCase):
                     with open("auxiliar.txt", "r") as a:
                         lines = a.readlines()
                         try:
-                            contra=lines[count-6]#la linea donde esta el usuario y contraseña
-                            separador=contra.split(' ')#separar la lista por espacios
-                            print (lines[count-6])#linea para verificar si esta correcta la posicion del password
-                            passoword=separador[8]
-                            print("Este es el password: "+passoword)
+                            #contra=lines[count-6]#la linea donde esta el usuario y contraseña
+                            #separador=contra.split(' ')#separar la lista por espacios
+                            #print (lines[count-6])#linea para verificar si esta correcta la posicion del password
+                            #passoword=separador[8]
+                            #print("Este es el password: "+passoword)
                             dateTimeObj = datetime.now()
                             timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
                             f= open("operaciones.log","a+")
                             f.write(timestampStr+" Creacion de cuenta de alumno: "+login+" \n")
                             f.close
-                            botones[element].click()
+                            botones[numero_de_tickets].click()
+                            driver.find_element_by_xpath("//option[contains(text(),'Finalizado')]").click()
+                            driver.find_element_by_id("coment").click()
+                            driver.find_element_by_id("coment").clear()
+                            driver.find_element_by_id("coment").send_keys("Usuario creado y email enviado")
+                            driver.find_element_by_id("actualizar").click()
+                            driver.find_element_by_id("bt-cierre").click()
+                            driver.get("https://zimbra.cucea.udg.mx")
+                            time.sleep(1)
+                            driver.find_element_by_id("zb__NEW_MENU_title").click()
+                            driver.find_element_by_id("zv__COMPOSE-1_to_control").clear()
+                            driver.find_element_by_id("zv__COMPOSE-1_to_control").send_keys(correo)
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").click()
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").clear()
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").send_keys("este es el asunto")
+                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").click()
+                            #driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").clear()
+                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").send_keys("Que onda")
+                            #driver.find_element_by_xpath("//div[@id='mceu_39']").send_keys("Login: "+login+"\nContraseña: "passoword)
+                            driver.find_element_by_id("zb__COMPOSE-1__SEND_title").click()# enviar
                         except:
                             print("esta cuenta ya existe except")
                             dateTimeObj = datetime.now()
@@ -148,6 +179,7 @@ class AppDynamicsJob(unittest.TestCase):
                             f.close
                     a.close
                     os.remove("auxiliar.txt")
+                    numero_de_tickets=numero_de_tickets+1
                 elif tipo_de_cuenta == 'Profesor' or tipo_de_cuenta == 'Personal Administrativo' or tipo_de_cuenta == 'Personal Académico':
                     #todo: especificar el login de este case
                     #scriptKeyboard.nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo)
@@ -156,6 +188,10 @@ class AppDynamicsJob(unittest.TestCase):
                     f= open("operaciones.log","a+")
                     f.write(timestampStr+" Creacion de cuenta de "+tipo_de_cuenta+" y su login es: "+login+" \n")
                     f.close
+                    #print("Solo elemento: "+element)
+                    #print("lista de listas: "+lista_de_listas)
+                    botones[numero_de_tickets].click()
+                    numero_de_tickets=numero_de_tickets+1
     """ def test2(self):
         driver = self.driver
         driver.maximize_window()

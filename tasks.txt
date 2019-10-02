@@ -7,4 +7,4 @@
 Especificacion de que se necesita:
 En creacion de cuientas diferentes a alumnos es necesario especificar el login
 En recuperacion de contraseña se necesita especificar el login y si es cuenta de alumno o diferente 
-hacer que ciclo y login sean mandatorios, si es posible que tenga trim para evitar que sea un espacio
+hacer que todos los campos sean mandatorios, si es posible que tenga trim para evitar que sea un espacio

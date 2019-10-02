@@ -2307,3 +2307,1429 @@ console.error: BroadcastService:
 [Parent 16903, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 [Parent 16903, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 1569459189872	Marionette	INFO	Stopped listening on port 36703
+1569627241552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C2xuGr32N6y4"
+
+(firefox:10693): Gtk-WARNING **: 18:34:01.615: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627241969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627241969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627241969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:10693): IBUS-WARNING **: 18:34:02.353: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:10916): Gtk-WARNING **: 18:34:02.600: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:10943): Gtk-WARNING **: 18:34:02.854: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627243953	Marionette	INFO	Listening on port 33885
+1569627243970	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:11028): Gtk-WARNING **: 18:34:04.098: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:10693): GLib-GObject-WARNING **: 18:34:05.803: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f831eff41a0' of type 'MaiAtkType139'
+
+(firefox:10693): GLib-GObject-WARNING **: 18:34:06.042: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f831eff41a0' of type 'MaiAtkType139'
+
+(firefox:10693): GLib-GObject-WARNING **: 18:34:06.335: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f831eff4470' of type 'MaiAtkType139'
+1569627333072	Marionette	INFO	Stopped listening on port 33885
+1569627343071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D62khFiedpO7"
+
+(firefox:11189): Gtk-WARNING **: 18:35:43.139: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627343450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627343450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627343450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:11189): IBUS-WARNING **: 18:35:43.690: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:11363): Gtk-WARNING **: 18:35:43.849: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:11386): Gtk-WARNING **: 18:35:44.012: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627345065	Marionette	INFO	Listening on port 44543
+1569627345094	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:11471): Gtk-WARNING **: 18:35:45.277: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:11189): GLib-GObject-WARNING **: 18:35:46.061: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f13de692ec0' of type 'MaiAtkType139'
+
+(firefox:11189): GLib-GObject-WARNING **: 18:35:46.309: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f13de692ec0' of type 'MaiAtkType139'
+
+(firefox:11189): GLib-GObject-WARNING **: 18:35:46.596: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f13df3faa10' of type 'MaiAtkType139'
+1569627448348	Marionette	INFO	Stopped listening on port 44543
+1569627628487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kix8MCYac91E"
+
+(firefox:11803): Gtk-WARNING **: 18:40:28.561: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627628869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627628869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627628869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:11803): IBUS-WARNING **: 18:40:29.133: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:12000): Gtk-WARNING **: 18:40:29.384: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:12023): Gtk-WARNING **: 18:40:29.738: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627631024	Marionette	INFO	Listening on port 41821
+1569627631111	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:12100): Gtk-WARNING **: 18:40:31.142: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:11803): GLib-GObject-WARNING **: 18:40:33.107: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff62fcedd80' of type 'MaiAtkType139'
+
+(firefox:11803): GLib-GObject-WARNING **: 18:40:33.356: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff62fcedd80' of type 'MaiAtkType139'
+
+(firefox:11803): GLib-GObject-WARNING **: 18:40:33.639: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff62fe39240' of type 'MaiAtkType139'
+1569627636906	Marionette	INFO	Stopped listening on port 41821
+1569627687655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JBqoKXsJpIon"
+
+(firefox:12221): Gtk-WARNING **: 18:41:27.724: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627688032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627688032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627688032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12221): IBUS-WARNING **: 18:41:28.274: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:12402): Gtk-WARNING **: 18:41:28.433: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:12428): Gtk-WARNING **: 18:41:28.601: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627689592	Marionette	INFO	Listening on port 34927
+1569627689669	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:12523): Gtk-WARNING **: 18:41:29.729: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:12221): GLib-GObject-WARNING **: 18:41:30.642: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fdb9ec940b0' of type 'MaiAtkType139'
+
+(firefox:12221): GLib-GObject-WARNING **: 18:41:30.894: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fdb9ec940b0' of type 'MaiAtkType139'
+
+(firefox:12221): GLib-GObject-WARNING **: 18:41:31.187: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fdb9ec94380' of type 'MaiAtkType139'
+1569627695112	Marionette	INFO	Stopped listening on port 34927
+1569627803941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nMTHLegy1gQh"
+
+(firefox:12698): Gtk-WARNING **: 18:43:24.004: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627804312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627804312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627804312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12698): IBUS-WARNING **: 18:43:24.553: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:12875): Gtk-WARNING **: 18:43:24.713: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:12898): Gtk-WARNING **: 18:43:24.874: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627805969	Marionette	INFO	Listening on port 34777
+1569627806052	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:12981): Gtk-WARNING **: 18:43:26.113: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:12698): GLib-GObject-WARNING **: 18:43:27.053: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb6c8e7d6f0' of type 'MaiAtkType139'
+
+(firefox:12698): GLib-GObject-WARNING **: 18:43:27.291: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb6c8e7d6f0' of type 'MaiAtkType139'
+
+(firefox:12698): GLib-GObject-WARNING **: 18:43:27.580: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb6c8e7d9c0' of type 'MaiAtkType139'
+1569627816689	Marionette	INFO	Stopped listening on port 34777
+1569627838594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Jx0va0whyNok"
+
+(firefox:13101): Gtk-WARNING **: 18:43:58.658: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627838960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569627838961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569627838961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13101): IBUS-WARNING **: 18:43:59.202: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:13280): Gtk-WARNING **: 18:43:59.358: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:13303): Gtk-WARNING **: 18:43:59.521: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569627840635	Marionette	INFO	Listening on port 40781
+1569627840707	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:13379): Gtk-WARNING **: 18:44:00.785: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:13101): GLib-GObject-WARNING **: 18:44:01.755: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff70ae9e5b0' of type 'MaiAtkType139'
+
+(firefox:13101): GLib-GObject-WARNING **: 18:44:02.005: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff70ae9e5b0' of type 'MaiAtkType139'
+
+(firefox:13101): GLib-GObject-WARNING **: 18:44:02.295: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff70bdc5380' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569628024232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MeZI78TYVK39"
+
+(firefox:13580): Gtk-WARNING **: 18:47:04.299: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628024629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569628024629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569628024629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13580): IBUS-WARNING **: 18:47:04.885: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:13768): Gtk-WARNING **: 18:47:05.047: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:13791): Gtk-WARNING **: 18:47:05.205: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628026295	Marionette	INFO	Listening on port 33223
+1569628026348	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:13877): Gtk-WARNING **: 18:47:06.417: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:13580): GLib-GObject-WARNING **: 18:47:07.357: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f92c820d1f0' of type 'MaiAtkType139'
+
+(firefox:13580): GLib-GObject-WARNING **: 18:47:07.610: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f92c820d1f0' of type 'MaiAtkType139'
+
+(firefox:13580): GLib-GObject-WARNING **: 18:47:07.892: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f92c820d4c0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569628280431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OUWKafggbHMt"
+
+(firefox:14154): Gtk-WARNING **: 18:51:20.507: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628280932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569628280933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569628280933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:14154): IBUS-WARNING **: 18:51:21.496: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:14338): Gtk-WARNING **: 18:51:21.756: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:14361): Gtk-WARNING **: 18:51:21.930: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628282995	Marionette	INFO	Listening on port 37267
+1569628283060	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:14446): Gtk-WARNING **: 18:51:23.197: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:14154): GLib-GObject-WARNING **: 18:51:24.055: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0117fb0ab0' of type 'MaiAtkType139'
+
+(firefox:14154): GLib-GObject-WARNING **: 18:51:24.295: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0117fb0ab0' of type 'MaiAtkType139'
+
+(firefox:14154): GLib-GObject-WARNING **: 18:51:24.590: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0117fb0d80' of type 'MaiAtkType139'
+1569628411827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e9QLgzbl7Aoc"
+
+(firefox:14594): Gtk-WARNING **: 18:53:31.896: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628412208	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569628412209	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569628412209	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:14594): IBUS-WARNING **: 18:53:32.454: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:14773): Gtk-WARNING **: 18:53:32.612: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:14796): Gtk-WARNING **: 18:53:32.776: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628413908	Marionette	INFO	Listening on port 44487
+1569628413959	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:14883): Gtk-WARNING **: 18:53:33.989: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:14594): GLib-GObject-WARNING **: 18:53:34.887: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f19baf6ffb0' of type 'MaiAtkType139'
+
+(firefox:14594): GLib-GObject-WARNING **: 18:53:35.124: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f19baf6ffb0' of type 'MaiAtkType139'
+
+(firefox:14594): GLib-GObject-WARNING **: 18:53:35.412: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f19ba8440b0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569628573087	Marionette	INFO	Stopped listening on port 44487
+[Parent 14154, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569628583920	Marionette	INFO	Stopped listening on port 37267
+[Parent 13580, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 13580, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569628585955	Marionette	INFO	Stopped listening on port 33223
+1569628587934	Marionette	INFO	Stopped listening on port 40781
+1569628600567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CZ4JOxNpXPYn"
+
+(firefox:15108): Gtk-WARNING **: 18:56:40.639: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628600960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569628600960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569628600961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:15108): IBUS-WARNING **: 18:56:41.206: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:15285): Gtk-WARNING **: 18:56:41.365: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:15308): Gtk-WARNING **: 18:56:41.529: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569628602611	Marionette	INFO	Listening on port 33605
+1569628602706	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:15386): Gtk-WARNING **: 18:56:42.768: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:15108): GLib-GObject-WARNING **: 18:56:44.504: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8d77045100' of type 'MaiAtkType139'
+
+(firefox:15108): GLib-GObject-WARNING **: 18:56:44.766: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8d77045100' of type 'MaiAtkType139'
+
+(firefox:15108): GLib-GObject-WARNING **: 18:56:45.049: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8d77045510' of type 'MaiAtkType139'
+1569628785022	Marionette	INFO	Stopped listening on port 33605
+1569629117424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K2iQxhkFlwY0"
+
+(firefox:15783): Gtk-WARNING **: 19:05:17.489: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629117806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569629117806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569629117806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:15783): IBUS-WARNING **: 19:05:18.065: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:15964): Gtk-WARNING **: 19:05:18.223: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:15988): Gtk-WARNING **: 19:05:18.390: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629119500	Marionette	INFO	Listening on port 42213
+1569629119541	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:16072): Gtk-WARNING **: 19:05:19.710: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:15783): GLib-GObject-WARNING **: 19:05:20.505: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7feab061cab0' of type 'MaiAtkType139'
+
+(firefox:15783): GLib-GObject-WARNING **: 19:05:20.756: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7feab061cab0' of type 'MaiAtkType139'
+
+(firefox:15783): GLib-GObject-WARNING **: 19:05:21.051: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7feab061cd80' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569629443002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tX6xsmZPj6SI"
+
+(firefox:16324): Gtk-WARNING **: 19:10:43.075: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629443398	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569629443399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569629443399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:16324): IBUS-WARNING **: 19:10:43.654: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:16506): Gtk-WARNING **: 19:10:43.822: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:16529): Gtk-WARNING **: 19:10:43.986: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629444930	Marionette	INFO	Listening on port 43759
+1569629445017	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:16633): Gtk-WARNING **: 19:10:45.079: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:16324): GLib-GObject-WARNING **: 19:10:46.683: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7ac9163bf0' of type 'MaiAtkType139'
+
+(firefox:16324): GLib-GObject-WARNING **: 19:10:46.923: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7ac9163bf0' of type 'MaiAtkType139'
+
+(firefox:16324): GLib-GObject-WARNING **: 19:10:47.219: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7ac9163e70' of type 'MaiAtkType139'
+[Parent 15783, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15783, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569629448876	Marionette	INFO	Stopped listening on port 42213
+
+(firefox:16324): GLib-GObject-WARNING **: 19:12:15.642: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f7ac64a9f60' of type 'MaiAtkType13b'
+
+(firefox:16324): GLib-GObject-WARNING **: 19:12:15.956: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7ac64a9f60' of type 'MaiAtkType13b'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569629894089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hLlkstPaqfZ5"
+
+(firefox:16874): Gtk-WARNING **: 19:18:14.159: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629894473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569629894473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569629894473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:16874): IBUS-WARNING **: 19:18:14.722: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:17051): Gtk-WARNING **: 19:18:14.887: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:17074): Gtk-WARNING **: 19:18:15.051: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569629896170	Marionette	INFO	Listening on port 39889
+1569629896212	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:17153): Gtk-WARNING **: 19:18:16.348: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:16874): GLib-GObject-WARNING **: 19:18:17.200: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f100187e600' of type 'MaiAtkType139'
+
+(firefox:16874): GLib-GObject-WARNING **: 19:18:17.473: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f100187e600' of type 'MaiAtkType139'
+
+(firefox:16874): GLib-GObject-WARNING **: 19:18:17.766: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f100187e8d0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+(firefox:16874): GLib-GObject-WARNING **: 19:19:18.197: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f1001555e20' of type 'MaiAtkType13b'
+
+(firefox:16874): GLib-GObject-WARNING **: 19:19:18.503: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1001555e20' of type 'MaiAtkType13b'
+1569629987043	Marionette	INFO	Stopped listening on port 39889
+1569630079613	Marionette	INFO	Stopped listening on port 43759
+1569630085109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IapJfsB2Xn82"
+
+(firefox:17366): Gtk-WARNING **: 19:21:25.187: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630085503	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569630085503	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569630085503	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:17366): IBUS-WARNING **: 19:21:25.745: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:17561): Gtk-WARNING **: 19:21:25.907: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:17584): Gtk-WARNING **: 19:21:26.068: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630087152	Marionette	INFO	Listening on port 42281
+1569630087222	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:17662): Gtk-WARNING **: 19:21:27.282: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:17366): GLib-GObject-WARNING **: 19:21:30.051: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd039ace470' of type 'MaiAtkType139'
+
+(firefox:17366): GLib-GObject-WARNING **: 19:21:30.313: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd039ace470' of type 'MaiAtkType139'
+
+(firefox:17366): GLib-GObject-WARNING **: 19:21:30.595: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd039acea60' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+(firefox:17366): GLib-GObject-WARNING **: 19:28:18.415: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fd036d930b0' of type 'MaiAtkType13b'
+
+(firefox:17366): GLib-GObject-WARNING **: 19:28:18.712: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd036d930b0' of type 'MaiAtkType13b'
+1569630679731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.69QVVjwpjF2W"
+
+(firefox:17933): Gtk-WARNING **: 19:31:19.796: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630680107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569630680107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569630680107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:17933): IBUS-WARNING **: 19:31:20.361: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:18117): Gtk-WARNING **: 19:31:20.524: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:18140): Gtk-WARNING **: 19:31:20.743: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630681962	Marionette	INFO	Listening on port 45683
+1569630682051	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:18221): Gtk-WARNING **: 19:31:22.104: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:17933): GLib-GObject-WARNING **: 19:31:23.056: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fcf7606fc40' of type 'MaiAtkType139'
+
+(firefox:17933): GLib-GObject-WARNING **: 19:31:23.288: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fcf7606fc40' of type 'MaiAtkType139'
+[Parent 17366, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569630683620	Marionette	INFO	Stopped listening on port 42281
+
+(firefox:17933): GLib-GObject-WARNING **: 19:31:23.645: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fcf759051f0' of type 'MaiAtkType139'
+
+(firefox:17933): GLib-GObject-WARNING **: 19:31:45.928: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fcf759b6b00' of type 'MaiAtkType13b'
+
+(firefox:17933): GLib-GObject-WARNING **: 19:31:46.229: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fcf759b6b00' of type 'MaiAtkType13b'
+1569630727159	Marionette	INFO	Stopped listening on port 45683
+[Parent 17933, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569630773278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2jDPPsAqoEks"
+
+(firefox:18389): Gtk-WARNING **: 19:32:53.351: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630773648	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569630773648	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569630773648	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:18389): IBUS-WARNING **: 19:32:53.892: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:18579): Gtk-WARNING **: 19:32:54.048: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:18602): Gtk-WARNING **: 19:32:54.209: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630775306	Marionette	INFO	Listening on port 37421
+1569630775392	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:18685): Gtk-WARNING **: 19:32:55.448: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:18389): GLib-GObject-WARNING **: 19:32:56.435: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f47be5d20b0' of type 'MaiAtkType139'
+
+(firefox:18389): GLib-GObject-WARNING **: 19:32:56.684: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f47be5d20b0' of type 'MaiAtkType139'
+
+(firefox:18389): GLib-GObject-WARNING **: 19:32:56.967: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f47be5d2380' of type 'MaiAtkType139'
+
+(firefox:18389): GLib-GObject-WARNING **: 19:33:03.766: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f47bb51f830' of type 'MaiAtkType1'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+(firefox:18389): GLib-GObject-WARNING **: 19:34:08.063: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f47ba574c90' of type 'MaiAtkType13b'
+
+(firefox:18389): GLib-GObject-WARNING **: 19:34:16.012: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f47ba574c90' of type 'MaiAtkType13b'
+
+(firefox:18389): GLib-GObject-WARNING **: 19:34:30.647: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f47ba866510' of type 'MaiAtkType13b'
+1569630870649	Marionette	INFO	Stopped listening on port 37421
+[Parent 18389, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569630920161	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.y2J83O8YtoZP"
+
+(firefox:18865): Gtk-WARNING **: 19:35:20.225: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630920531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569630920531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569630920531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:18865): IBUS-WARNING **: 19:35:20.778: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:19047): Gtk-WARNING **: 19:35:20.939: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:19070): Gtk-WARNING **: 19:35:21.101: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630922220	Marionette	INFO	Listening on port 45817
+1569630922282	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:19163): Gtk-WARNING **: 19:35:22.362: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:23.469: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4988ffbdd0' of type 'MaiAtkType139'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:23.795: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4988ffbdd0' of type 'MaiAtkType139'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:24.119: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f49a27d9420' of type 'MaiAtkType139'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:34.631: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f4988ddd6a0' of type 'MaiAtkType13b'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:34.939: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4988ddd6a0' of type 'MaiAtkType13b'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:41.208: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f4988ec24c0' of type 'MaiAtkType13b'
+
+(firefox:18865): GLib-GObject-WARNING **: 19:35:41.506: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4988ec24c0' of type 'MaiAtkType13b'
+1569630973809	Marionette	INFO	Stopped listening on port 45817
+1569630992690	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZC4zuWiEDPVF"
+
+(firefox:19347): Gtk-WARNING **: 19:36:32.752: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630993060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569630993060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569630993060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:19347): IBUS-WARNING **: 19:36:33.308: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:19529): Gtk-WARNING **: 19:36:33.472: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:19552): Gtk-WARNING **: 19:36:33.631: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569630994728	Marionette	INFO	Listening on port 38673
+1569630994804	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:19640): Gtk-WARNING **: 19:36:34.868: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:19347): GLib-GObject-WARNING **: 19:36:35.809: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f740cf97a10' of type 'MaiAtkType139'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:36:36.048: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f740cf97a10' of type 'MaiAtkType139'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:36:36.335: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f73f89fc2e0' of type 'MaiAtkType139'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:37:02.139: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f73f6b5d880' of type 'MaiAtkType13b'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:37:02.441: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f73f6b5d880' of type 'MaiAtkType13b'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:37:28.531: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f73f649e970' of type 'MaiAtkType13b'
+
+(firefox:19347): GLib-GObject-WARNING **: 19:37:28.831: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f73f649e970' of type 'MaiAtkType13b'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569631261570	Marionette	INFO	Stopped listening on port 38673
+1569631703005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SRDSDo9yVhBw"
+
+(firefox:20637): Gtk-WARNING **: 19:48:23.082: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631703409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569631703410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569631703410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:20637): IBUS-WARNING **: 19:48:23.658: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:20826): Gtk-WARNING **: 19:48:23.816: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:20849): Gtk-WARNING **: 19:48:23.979: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631704994	Marionette	INFO	Listening on port 34773
+1569631705030	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:20935): Gtk-WARNING **: 19:48:25.147: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:26.038: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7f1b0fa420' of type 'MaiAtkType139'
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:26.289: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7f1b0fa420' of type 'MaiAtkType139'
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:26.578: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7f1b0fa7e0' of type 'MaiAtkType139'
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:32.541: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f7f1ac211a0' of type 'MaiAtkType13b'
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:32.846: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7f1ac211a0' of type 'MaiAtkType13b'
+
+(firefox:20637): GLib-GObject-WARNING **: 19:48:38.002: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7f1ae72ec0' of type 'MaiAtkType139'
+[Parent 20637, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 20637, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569631779600	Marionette	INFO	Stopped listening on port 34773
+1569631789531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dWPN6ugs2h3z"
+
+(firefox:21093): Gtk-WARNING **: 19:49:49.598: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631789907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569631789907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569631789907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:21093): IBUS-WARNING **: 19:49:50.151: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:21266): Gtk-WARNING **: 19:49:50.315: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:21289): Gtk-WARNING **: 19:49:50.476: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631791517	Marionette	INFO	Listening on port 35205
+1569631791577	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:21370): Gtk-WARNING **: 19:49:51.729: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:21093): GLib-GObject-WARNING **: 19:49:53.389: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0cd4293880' of type 'MaiAtkType139'
+
+(firefox:21093): GLib-GObject-WARNING **: 19:49:53.629: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0cd4293880' of type 'MaiAtkType139'
+
+(firefox:21093): GLib-GObject-WARNING **: 19:49:53.925: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0cd4293b50' of type 'MaiAtkType139'
+
+(firefox:21093): GLib-GObject-WARNING **: 19:49:59.557: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f0cd3d71920' of type 'MaiAtkType13b'
+
+(firefox:21093): GLib-GObject-WARNING **: 19:49:59.858: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0cd3d71920' of type 'MaiAtkType13b'
+
+(firefox:21093): GLib-GObject-WARNING **: 19:50:03.600: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f0cd3dfb150' of type 'MaiAtkType139'
+1569631818593	Marionette	INFO	Stopped listening on port 35205
+1569631930122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PkBU0dkEK0aV"
+
+(firefox:21644): Gtk-WARNING **: 19:52:10.188: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631930496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569631930497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569631930497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:21644): IBUS-WARNING **: 19:52:10.741: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:21824): Gtk-WARNING **: 19:52:10.905: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:21847): Gtk-WARNING **: 19:52:11.066: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631932154	Marionette	INFO	Listening on port 46147
+1569631932235	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:21929): Gtk-WARNING **: 19:52:12.298: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:13.210: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7345fd7ce0' of type 'MaiAtkType139'
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:13.477: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7345fd7ce0' of type 'MaiAtkType139'
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:13.769: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7345fd7fb0' of type 'MaiAtkType139'
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:17.814: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f7345f628d0' of type 'MaiAtkType13b'
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:18.123: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7345f628d0' of type 'MaiAtkType13b'
+
+(firefox:21644): GLib-GObject-WARNING **: 19:52:31.350: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f73471c5fb0' of type 'MaiAtkType139'
+1569631983759	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0G3mXJaiWLfc"
+
+(firefox:22055): Gtk-WARNING **: 19:53:03.826: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631984157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569631984158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569631984158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:22055): IBUS-WARNING **: 19:53:04.464: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:22223): Gtk-WARNING **: 19:53:04.623: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:22246): Gtk-WARNING **: 19:53:04.784: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569631985828	Marionette	INFO	Listening on port 37089
+1569631985876	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:22314): Gtk-WARNING **: 19:53:05.926: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:06.912: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1240798060' of type 'MaiAtkType139'
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:07.169: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1240798060' of type 'MaiAtkType139'
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:07.450: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1240798330' of type 'MaiAtkType139'
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:11.535: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f123c730c40' of type 'MaiAtkType13b'
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:11.836: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f123c730c40' of type 'MaiAtkType13b'
+
+(firefox:22055): GLib-GObject-WARNING **: 19:53:12.469: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f123da61c40' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+(firefox:22055): GLib-GObject-WARNING **: 07:59:28.356: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1240802ab0' of type 'MaiAtkType139'
+
+(/usr/lib64/firefox/firefox:23184): Gtk-WARNING **: 07:59:30.817: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569848375016	Marionette	INFO	Stopped listening on port 37089
+
+(firefox:21644): GLib-GObject-WARNING **: 07:59:38.222: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7348affce0' of type 'MaiAtkType139'
+1569848379318	Marionette	INFO	Stopped listening on port 46147
+1569964191054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.klZB6yDWkbvI"
+
+(firefox:10158): Gtk-WARNING **: 16:09:51.184: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569964192910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569964192911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569964192911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:10158): IBUS-WARNING **: 16:09:54.636: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:10345): Gtk-WARNING **: 16:09:54.964: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:10372): Gtk-WARNING **: 16:09:56.362: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569964197862	Marionette	INFO	Listening on port 37479
+1569964198020	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:10459): Gtk-WARNING **: 16:09:58.061: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:00.515: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb9297ba060' of type 'MaiAtkType139'
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:00.891: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb9297ba060' of type 'MaiAtkType139'
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:01.182: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb9297ba330' of type 'MaiAtkType139'
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:17.915: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fb917168920' of type 'MaiAtkType13b'
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:18.222: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb917168920' of type 'MaiAtkType13b'
+
+(firefox:10158): GLib-GObject-WARNING **: 16:10:32.960: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb9174319c0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1569964319309	Marionette	INFO	Stopped listening on port 37479
+1569971177909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.np244xcVKkJ2"
+
+(firefox:12662): Gtk-WARNING **: 18:06:18.001: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971179394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569971179394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569971179394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12662): IBUS-WARNING **: 18:06:21.214: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:12855): Gtk-WARNING **: 18:06:21.538: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:12882): Gtk-WARNING **: 18:06:23.065: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971184305	Marionette	INFO	Listening on port 35049
+1569971184371	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:12961): Gtk-WARNING **: 18:06:24.473: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:12662): GLib-GObject-WARNING **: 18:06:26.058: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fafb40a1e70' of type 'MaiAtkType139'
+
+(firefox:12662): GLib-GObject-WARNING **: 18:06:26.397: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fafb40a1e70' of type 'MaiAtkType139'
+
+(firefox:12662): GLib-GObject-WARNING **: 18:06:26.694: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fafb41ede70' of type 'MaiAtkType139'
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Parent 12662, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569971224362	Marionette	INFO	Stopped listening on port 35049
+1569971236345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZyGiejZ8Mxoi"
+
+(firefox:13092): Gtk-WARNING **: 18:07:16.403: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971236781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569971236781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569971236781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13092): IBUS-WARNING **: 18:07:17.304: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:13286): Gtk-WARNING **: 18:07:17.467: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:13309): Gtk-WARNING **: 18:07:17.645: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971238662	Marionette	INFO	Listening on port 38889
+
+(/usr/lib64/firefox/firefox:13387): Gtk-WARNING **: 18:07:18.761: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971238782	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:13092): GLib-GObject-WARNING **: 18:07:20.222: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4266be61f0' of type 'MaiAtkType139'
+
+(firefox:13092): GLib-GObject-WARNING **: 18:07:20.472: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4266be61f0' of type 'MaiAtkType139'
+
+(firefox:13092): GLib-GObject-WARNING **: 18:07:20.754: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f4266be65b0' of type 'MaiAtkType139'
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Parent 13092, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569971266637	Marionette	INFO	Stopped listening on port 38889
+1569971278342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6CXPZnYWKIAO"
+
+(firefox:13480): Gtk-WARNING **: 18:07:58.411: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971278723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569971278723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569971278723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13480): IBUS-WARNING **: 18:07:58.966: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:13659): Gtk-WARNING **: 18:07:59.128: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:13686): Gtk-WARNING **: 18:07:59.561: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971280665	Marionette	INFO	Listening on port 41141
+1569971280757	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:13768): Gtk-WARNING **: 18:08:00.814: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:13480): GLib-GObject-WARNING **: 18:08:01.753: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8696f91d30' of type 'MaiAtkType139'
+
+(firefox:13480): GLib-GObject-WARNING **: 18:08:02.011: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8696f91d30' of type 'MaiAtkType139'
+
+(firefox:13480): GLib-GObject-WARNING **: 18:08:02.295: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8696ff9b00' of type 'MaiAtkType139'
+
+(firefox:13480): GLib-GObject-WARNING **: 18:08:24.990: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f86969998d0' of type 'MaiAtkType13b'
+
+(firefox:13480): GLib-GObject-WARNING **: 18:08:25.272: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f86969998d0' of type 'MaiAtkType13b'
+[Parent 13480, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 13480, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569971320480	Marionette	INFO	Stopped listening on port 41141
+1569971333706	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hYannD1qzhC6"
+
+(firefox:13879): Gtk-WARNING **: 18:08:53.772: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971334079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569971334080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569971334080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13879): IBUS-WARNING **: 18:08:54.323: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:14060): Gtk-WARNING **: 18:08:54.481: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:14083): Gtk-WARNING **: 18:08:54.646: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569971335708	Marionette	INFO	Listening on port 33465
+1569971335720	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:14160): Gtk-WARNING **: 18:08:55.880: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:13879): GLib-GObject-WARNING **: 18:08:56.738: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fee07bfda10' of type 'MaiAtkType139'
+
+(firefox:13879): GLib-GObject-WARNING **: 18:08:56.990: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fee07bfda10' of type 'MaiAtkType139'
+
+(firefox:13879): GLib-GObject-WARNING **: 18:08:57.271: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fee07cbf150' of type 'MaiAtkType139'
+
+(firefox:13879): GLib-GObject-WARNING **: 18:09:14.560: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fee07f40740' of type 'MaiAtkType939'
+1569971378691	Marionette	INFO	Stopped listening on port 33465
+1569973181757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P3N4zGJ12nl9"
+
+(firefox:15077): Gtk-WARNING **: 18:39:41.821: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569973182156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569973182156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569973182156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:15077): IBUS-WARNING **: 18:39:42.400: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:15256): Gtk-WARNING **: 18:39:42.558: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:15280): Gtk-WARNING **: 18:39:42.754: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569973183846	Marionette	INFO	Listening on port 41993
+1569973183902	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:15357): Gtk-WARNING **: 18:39:44.047: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:15077): GLib-GObject-WARNING **: 18:39:44.856: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f5e3513fb00' of type 'MaiAtkType139'
+
+(firefox:15077): GLib-GObject-WARNING **: 18:39:45.094: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f5e3513fb00' of type 'MaiAtkType139'
+
+(firefox:15077): GLib-GObject-WARNING **: 18:39:45.375: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f5e34be8ec0' of type 'MaiAtkType139'
+
+(firefox:15077): GLib-GObject-WARNING **: 18:39:55.412: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f5e35a1bc90' of type 'MaiAtkType939'
+1569973282803	Marionette	INFO	Stopped listening on port 41993
+1569973288003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xRIZDAITn3vZ"
+
+(firefox:15588): Gtk-WARNING **: 18:41:28.069: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569973288382	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569973288382	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569973288382	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:15588): IBUS-WARNING **: 18:41:28.628: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:15766): Gtk-WARNING **: 18:41:28.789: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:15789): Gtk-WARNING **: 18:41:28.950: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569973290041	Marionette	INFO	Listening on port 41271
+1569973290117	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:15874): Gtk-WARNING **: 18:41:30.181: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:31.917: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fbdb9ca9f60' of type 'MaiAtkType139'
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:32.163: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fbdb9ca9f60' of type 'MaiAtkType139'
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:32.444: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fbdb9cba290' of type 'MaiAtkType139'
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:37.468: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fbdb9ddcce0' of type 'MaiAtkType939'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:48.369: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fbdba11d1f0' of type 'MaiAtkType139'
+
+(firefox:15588): GLib-GObject-WARNING **: 18:41:49.018: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fbdcb4f2650' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 15588, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15588, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569975826911	Marionette	INFO	Stopped listening on port 41271
+1569976502971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4J1SPzKZtPNn"
+
+(firefox:17712): Gtk-WARNING **: 19:35:03.028: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976503370	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569976503370	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569976503370	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:17712): IBUS-WARNING **: 19:35:03.666: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:17892): Gtk-WARNING **: 19:35:03.826: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:17915): Gtk-WARNING **: 19:35:03.991: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976505026	Marionette	INFO	Listening on port 41233
+
+(/usr/lib64/firefox/firefox:17992): Gtk-WARNING **: 19:35:05.127: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976505143	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:06.143: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120b2ae5b0' of type 'MaiAtkType139'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:06.388: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120b2ae5b0' of type 'MaiAtkType139'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:06.682: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120e2423d0' of type 'MaiAtkType139'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:18.477: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120b06c330' of type 'MaiAtkType939'
+1569976518912	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:24.729: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120bee22e0' of type 'MaiAtkType139'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:25.210: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f120ee25d80' of type 'MaiAtkType139'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:42.457: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f120ac6c1f0' of type 'MaiAtkType13b'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:42.767: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120ac6c1f0' of type 'MaiAtkType13b'
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:48.661: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120b2ae600' of type 'MaiAtkType139'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:58.196: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f120ab61f10' of type 'MaiAtkType139'
+1569976558506	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+AjxLoader.load@https://zimbra.cucea.udg.mx/:1567:1
+AjxPackage.__doXHR@https://zimbra.cucea.udg.mx/:1748:7
+AjxPackage.__doLoad@https://zimbra.cucea.udg.mx/:1711:1
+AjxPackage.require@https://zimbra.cucea.udg.mx/:1669:1
+AjxDispatcher._continueRequire@https://zimbra.cucea.udg.mx/:2194:1
+AjxDispatcher.require@https://zimbra.cucea.udg.mx/:2176:8
+EmailTooltipZimlet.prototype.init@https://zimbra.cucea.udg.mx/service/zimlet/res/Zimlets-nodev_all.js.zgz?language=en&country=US&cosId=e00428a1-0c00-11d9-836a-000d93afea2a:1929:1
+ZmZimletContext.prototype._finished_loadIncludes@https://zimbra.cucea.udg.mx/ line 1688 > eval:701:1
+ZmZimletMgr.prototype._finished_loadIncludes@https://zimbra.cucea.udg.mx/ line 1688 > eval:1393:6
+AjxCallback.prototype.run@https://zimbra.cucea.udg.mx/:1482:8
+e@https://zimbra.cucea.udg.mx/js/Startup1_1_all.js.zgz?v=170531154502:4030:1
+AjxCallback.simpleClosure/<@https://zimbra.cucea.udg.mx/:1515:8
+
+(firefox:17712): GLib-GObject-WARNING **: 19:35:58.599: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f120af0dbf0' of type 'MaiAtkType139'
+1569976609710	Marionette	INFO	Stopped listening on port 41233
+1569976663049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iFUMzGtvHPhn"
+
+(firefox:18170): Gtk-WARNING **: 19:37:43.126: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976663440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569976663440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569976663441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:18170): IBUS-WARNING **: 19:37:43.704: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:18362): Gtk-WARNING **: 19:37:43.871: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:18385): Gtk-WARNING **: 19:37:44.039: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976665116	Marionette	INFO	Listening on port 40827
+1569976665165	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:18466): Gtk-WARNING **: 19:37:45.303: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:18170): GLib-GObject-WARNING **: 19:37:46.701: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc51c3b2e70' of type 'MaiAtkType139'
+
+(firefox:18170): GLib-GObject-WARNING **: 19:37:46.941: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc51c3b2e70' of type 'MaiAtkType139'
+
+(firefox:18170): GLib-GObject-WARNING **: 19:37:47.221: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc51e244ba0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+(firefox:18170): GLib-GObject-WARNING **: 19:39:01.562: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fc5180baf60' of type 'MaiAtkType13b'
+
+(firefox:18170): GLib-GObject-WARNING **: 19:39:01.841: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc5180baf60' of type 'MaiAtkType13b'
+[Parent 18170, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 18170, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569976750724	Marionette	INFO	Stopped listening on port 40827
+1569976757760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lNcn6EOPWV1Z"
+
+(firefox:18596): Gtk-WARNING **: 19:39:17.832: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976758145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569976758145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569976758145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:18596): IBUS-WARNING **: 19:39:18.392: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:18792): Gtk-WARNING **: 19:39:18.551: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:18815): Gtk-WARNING **: 19:39:18.715: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569976759895	Marionette	INFO	Listening on port 36293
+1569976759982	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:18904): Gtk-WARNING **: 19:39:20.026: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:20.919: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d92e7d0b0' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:21.169: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d92e7d0b0' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:21.455: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d92e7d380' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:40.699: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d93aea6f0' of type 'MaiAtkType939'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:48.701: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d942d9ba0' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:39:49.228: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3d979c1600' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:40:01.683: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3d93274920' of type 'MaiAtkType13b'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:40:01.990: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d93274920' of type 'MaiAtkType13b'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:40:09.318: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d93e3ac90' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:18596): GLib-GObject-WARNING **: 19:45:12.519: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d92df1560' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:45:12.906: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3d944a3510' of type 'MaiAtkType139'
+
+(firefox:18596): GLib-GObject-WARNING **: 19:45:17.063: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3d92b89420' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/ line 1688 > eval, line 6022: unreachable code after return statement
+1569977133788	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Parent 18596, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 18596, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569977166795	Marionette	INFO	Stopped listening on port 36293
+1569977337331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uMH3m5SSp3Lq"
+
+(firefox:19368): Gtk-WARNING **: 19:48:57.408: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977337717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569977337717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569977337717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:19368): IBUS-WARNING **: 19:48:57.959: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:19562): Gtk-WARNING **: 19:48:58.118: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:19586): Gtk-WARNING **: 19:48:58.282: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977339436	Marionette	INFO	Listening on port 36449
+1569977339443	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:19667): Gtk-WARNING **: 19:48:59.554: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:00.494: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f31400ee600' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:00.779: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f31400ee600' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:01.064: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f31293702e0' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:02.828: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f31270618d0' of type 'MaiAtkType939'
+1569977343211	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:04.852: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3138c5f420' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:05.330: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3124aba1f0' of type 'MaiAtkType139'
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:05.844: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3124aba4c0' of type 'MaiAtkType13b'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:05.907: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3124acc920' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:06.150: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3124aba4c0' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:07.904: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3126a37470' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:08.276: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f3127dac6a0' of type 'MaiAtkType139'
+
+(firefox:19368): GLib-GObject-WARNING **: 19:49:08.502: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f3126a370b0' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/ line 1688 > eval, line 6022: unreachable code after return statement
+1569977379082	Marionette	INFO	Stopped listening on port 36449
+1569977775680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N9Ij0hyCqm0D"
+
+(firefox:19941): Gtk-WARNING **: 19:56:15.750: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977776103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569977776103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569977776103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:19941): IBUS-WARNING **: 19:56:16.453: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:20121): Gtk-WARNING **: 19:56:16.615: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:20144): Gtk-WARNING **: 19:56:16.775: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977777836	Marionette	INFO	Listening on port 40967
+1569977777912	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:20216): Gtk-WARNING **: 19:56:18.038: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:18.870: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc29796ae20' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:19.120: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc29796ae20' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:19.408: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc2979b9150' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:21.129: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc296eb8380' of type 'MaiAtkType939'
+1569977781569	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:24.092: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc29b8ccec0' of type 'MaiAtkType139'
+JavaScript error: https://zimbra.cucea.udg.mx/js/Startup1_1_all.js.zgz?v=170531154502, line 30223: ReferenceError: ZmZimletMgr is not defined
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:25.048: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fc296e97bf0' of type 'MaiAtkType13b'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:25.338: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc296e97bf0' of type 'MaiAtkType13b'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:25.383: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc29774a7e0' of type 'MaiAtkType139'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:27.716: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc29774a880' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:28.162: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fc298aea790' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:56:28.468: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc2976be2e0' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/ line 1688 > eval, line 6022: unreachable code after return statement
+1569977793696	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.765: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297df9ab0' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.781: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79c90' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.800: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79c90' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.814: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79c90' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.832: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79c90' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.848: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79c90' of type 'MaiAtkType139'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.866: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.882: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.899: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.913: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.931: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.947: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.964: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.981: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:03.997: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.015: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.030: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.048: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.064: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.081: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.097: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.114: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.194: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+
+(firefox:19941): GLib-GObject-WARNING **: 19:57:04.216: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc297d79bf0' of type 'MaiAtkType319'
+[Parent 19941, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 19941, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /builddir/build/BUILD/firefox-66.0.4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1569977826858	Marionette	INFO	Stopped listening on port 40967
+1569977851024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VIsH5MqUF8co"
+
+(firefox:20367): Gtk-WARNING **: 19:57:31.101: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977851420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569977851420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569977851420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:20367): IBUS-WARNING **: 19:57:31.671: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:20560): Gtk-WARNING **: 19:57:31.829: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:20583): Gtk-WARNING **: 19:57:31.991: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977853021	Marionette	INFO	Listening on port 37587
+1569977853070	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:20662): Gtk-WARNING **: 19:57:33.177: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:34.867: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c0827c90' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:35.117: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c0827c90' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:35.411: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c0827fb0' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:37.281: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c4397c40' of type 'MaiAtkType939'
+1569977857694	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:39.315: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c43a4b50' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:39.765: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fd9c00ea1a0' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:40.273: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fd9c0093510' of type 'MaiAtkType13b'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:40.319: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c03b91f0' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:40.586: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c0093510' of type 'MaiAtkType13b'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:40.833: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c052dbf0' of type 'MaiAtkType139'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:42.278: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c01e5a60' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:42.693: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fd9c1868420' of type 'MaiAtkType139'
+
+(firefox:20367): GLib-GObject-WARNING **: 19:57:42.902: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fd9c0196f10' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/ line 1688 > eval, line 6022: unreachable code after return statement
+1569977869759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1569977924646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BfODPfU4NbhM"
+
+(firefox:20794): Gtk-WARNING **: 19:58:44.716: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977925040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569977925040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569977925040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:20794): IBUS-WARNING **: 19:58:45.286: Unable to connect to ibus: Could not connect: Connection refused
+
+(/usr/lib64/firefox/firefox:20968): Gtk-WARNING **: 19:58:45.449: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib64/firefox/firefox:20995): Gtk-WARNING **: 19:58:45.985: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977927162	Marionette	INFO	Listening on port 43121
+
+(/usr/lib64/firefox/firefox:21069): Gtk-WARNING **: 19:58:47.315: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1569977928229	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:49.155: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d861cf10' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:49.407: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d861cf10' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:49.695: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2ea8bb470' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:51.409: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d1ec4ab0' of type 'MaiAtkType939'
+1569977931832	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:53.585: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d7bca3d0' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:54.048: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fe2d492a5b0' of type 'MaiAtkType139'
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:54.555: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fe2d1e5f3d0' of type 'MaiAtkType13b'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:54.596: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d3bee150' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:54.843: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d1e5f3d0' of type 'MaiAtkType13b'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:55.099: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d3d1dba0' of type 'MaiAtkType139'
+JavaScript warning: https://zimbra.cucea.udg.mx/, line 6022: unreachable code after return statement
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:56.586: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d3b04880' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:56.979: gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fe2d492a1a0' of type 'MaiAtkType139'
+
+(firefox:20794): GLib-GObject-WARNING **: 19:58:57.189: gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe2d1e77c40' of type 'MaiAtkType13b'
+JavaScript warning: https://zimbra.cucea.udg.mx/ line 1688 > eval, line 6022: unreachable code after return statement
+1569977941590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
