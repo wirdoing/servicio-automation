@@ -24,7 +24,7 @@ def copiarTerminal():
     keyboard.release(Key.shift)
     keyboard.release(Key.ctrl)
 
-def nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo):
+def nuevaCuentaAdmin(loginAdmin,nombre,apellido,departamento,codigo,correo):
     abrirNuevaPestanaTerminal()
     time.sleep(3)
     keyboard.type('ssh prestador@zimbra')
@@ -37,7 +37,7 @@ def nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo):
     presionarEnter()
     keyboard.type('2')
     presionarEnter()
-    keyboard.type(login)
+    keyboard.type(loginAdmin)
     presionarEnter()
     keyboard.type(nombre)
     presionarEnter()

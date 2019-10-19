@@ -1,6 +1,8 @@
 -hacer un log con la hora y el dia especificando que operacion se hizo y si fue correcta
 -Verificar que la cuenta no esta repetida
 -automatizar el envio de correos
+-comprobar que sucede al utilizar ñ
+-documento cifrado para usuarios y contraseñas
 
 
 

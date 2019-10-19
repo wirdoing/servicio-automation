@@ -108,11 +108,11 @@ class AppDynamicsJob(unittest.TestCase):
         driver.switch_to.window(driver.window_handles[0])
         for element in lista_de_listas:
             for element in element:
-                print(len(lista_de_listas))
+                ##print(len(lista_de_listas))
                 var=element.text
-                print(var)
+                ##print(var)
                 datos=var.split('\n')
-                print(datos)
+                ##print(datos)
                 try:
                     login = datos[19]
                     nombre = datos[1]
@@ -125,7 +125,7 @@ class AppDynamicsJob(unittest.TestCase):
                     tipo_de_cuenta = datos[13]
                     departamento = datos[7]
                 except:
-                    print("El ticket no fue capturado correctamente revisar por favor")
+                    #print("El ticket no fue capturado correctamente revisar por favor")
                     dateTimeObj = datetime.now()
                     timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
                     f= open("operaciones.log","a+")
@@ -133,17 +133,17 @@ class AppDynamicsJob(unittest.TestCase):
                     f.close
                 if tipo_de_cuenta == 'Alumno' : 
                     carreraTransformada=transformarCarrera(carrera)
-                    #scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
+                    scriptKeyboard.nuevaCuentaAlumno(login,nombre,apellido,carreraTransformada,ciclo,correo,curp,codigo)
                     c = root.clipboard_get()#obtener lo copiado del clipboard
                     escribirAuxiliar(c)
                     count = len(open("auxiliar.txt").readlines(  ))
                     with open("auxiliar.txt", "r") as a:
                         lines = a.readlines()
                         try:
-                            #contra=lines[count-6]#la linea donde esta el usuario y contraseña
-                            #separador=contra.split(' ')#separar la lista por espacios
+                            contra=lines[count-6]#la linea donde esta el usuario y contraseña
+                            separador=contra.split(' ')#separar la lista por espacios
                             #print (lines[count-6])#linea para verificar si esta correcta la posicion del password
-                            #passoword=separador[8]
+                            passoword=separador[8]
                             #print("Este es el password: "+passoword)
                             dateTimeObj = datetime.now()
                             timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
@@ -164,10 +164,10 @@ class AppDynamicsJob(unittest.TestCase):
                             driver.find_element_by_id("zv__COMPOSE-1_to_control").send_keys(correo)
                             driver.find_element_by_id("zv__COMPOSE-1_subject_control").click()
                             driver.find_element_by_id("zv__COMPOSE-1_subject_control").clear()
-                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").send_keys("este es el asunto")
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").send_keys("Creacion de  correo institucional")
                             driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").click()
                             #driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").clear()
-                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").send_keys("Que onda")
+                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").send_keys("Usuario: "+login+"\nPassword: "+passoword)
                             #driver.find_element_by_xpath("//div[@id='mceu_39']").send_keys("Login: "+login+"\nContraseña: "passoword)
                             driver.find_element_by_id("zb__COMPOSE-1__SEND_title").click()# enviar
                         except:
@@ -177,12 +177,63 @@ class AppDynamicsJob(unittest.TestCase):
                             f= open("operaciones.log","a+")
                             f.write(timestampStr+" Esta cuenta ya existe: "+login+" \n")
                             f.close
+                            pass
                     a.close
                     os.remove("auxiliar.txt")
                     numero_de_tickets=numero_de_tickets+1
                 elif tipo_de_cuenta == 'Profesor' or tipo_de_cuenta == 'Personal Administrativo' or tipo_de_cuenta == 'Personal Académico':
                     #todo: especificar el login de este case
-                    #scriptKeyboard.nuevaCuentaAdmin(login,nombre,apellido,departamento,codigo,correo)
+                    separaNombre=nombre.split(' ')
+                    primerNombre=separaNombre[0]
+                    separaApellido=apellido.split(' ')
+                    primerApellido=separaApellido[0]
+                    loginAdmin=primerNombre+"."+primerApellido
+                    scriptKeyboard.nuevaCuentaAdmin(loginAdmin,nombre,apellido,departamento,codigo,correo)
+                    c = root.clipboard_get()#obtener lo copiado del clipboard
+                    escribirAuxiliar(c)
+                    count = len(open("auxiliar.txt").readlines(  ))
+                    with open("auxiliar.txt", "r") as a:
+                        lines = a.readlines()
+                        try:
+                            contra=lines[count-2]#la linea donde esta el usuario y contraseña
+                            separador=contra.split(' ')#separar la lista por espacios
+                            #print (lines[count-2])#linea para verificar si esta correcta la posicion del password
+                            passoword=separador[8]
+                            #print("Este es el password: "+passoword)
+                            dateTimeObj = datetime.now()
+                            timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                            f= open("operaciones.log","a+")
+                            f.write(timestampStr+" Creacion de cuenta de "+tipo_de_cuenta+" :"+login+" \n")
+                            f.close
+                            botones[numero_de_tickets].click()
+                            driver.find_element_by_xpath("//option[contains(text(),'Finalizado')]").click()
+                            driver.find_element_by_id("coment").click()
+                            driver.find_element_by_id("coment").clear()
+                            driver.find_element_by_id("coment").send_keys("Usuario creado y email enviado")
+                            driver.find_element_by_id("actualizar").click()
+                            driver.find_element_by_id("bt-cierre").click()
+                            driver.get("https://zimbra.cucea.udg.mx")
+                            time.sleep(1)
+                            driver.find_element_by_id("zb__NEW_MENU_title").click()
+                            driver.find_element_by_id("zv__COMPOSE-1_to_control").clear()
+                            driver.find_element_by_id("zv__COMPOSE-1_to_control").send_keys(correo)
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").click()
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").clear()
+                            driver.find_element_by_id("zv__COMPOSE-1_subject_control").send_keys("Creacion de  correo institucional")
+                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").click()
+                            #driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").clear()
+                            driver.find_element_by_xpath("//iframe[@id='ZmHtmlEditor1_body_ifr']").send_keys("Usuario: "+login+
+                            "\nPassword: "+passoword+"\nCorreo electronico: "+login+"@alumnos.cucea.udg.mx")
+                            #driver.find_element_by_xpath("//div[@id='mceu_39']").send_keys("Login: "+login+"\nContraseña: "passoword)
+                            driver.find_element_by_id("zb__COMPOSE-1__SEND_title").click()# enviar                            
+                        except:
+                            print("esta cuenta ya existe except")
+                            dateTimeObj = datetime.now()
+                            timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
+                            f= open("operaciones.log","a+")
+                            f.write(timestampStr+" Esta cuenta ya existe: "+login+" \n")
+                            f.close                            
+                            pass
                     dateTimeObj = datetime.now()
                     timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S)")
                     f= open("operaciones.log","a+")
